@@ -1,0 +1,6 @@
+torch>=2.0
+numpy
+Pillow
+torchvision
+lpips
+dists-pytorch
