@@ -42,12 +42,14 @@ The model itself only requires PyTorch. Evaluation uses NumPy and Pillow, with L
 
 ## Pretrained checkpoints
 
+Download the pretrained checkpoints from [Google Drive](https://drive.google.com/drive/folders/1Ke-1CuNYgXTeh2nYwO7hKs50j3-nQ7cR?usp=sharing). Create a `ckpt/` directory in the repository root and place the downloaded files at the paths listed below. Model weights are hosted separately and are not included in this GitHub repository.
+
 | Variant | Checkpoint | Encoder channels / blocks | Decoder channels / blocks |
 | --- | --- | --- | --- |
 | Base | `ckpt/ckpt.pth.tar` | 368 / 8 | 368 / 14 |
 | Small | `ckpt/ckpt_s.pth.tar` | 256 / 4 | 256 / 8 |
 
-Both variants use five residual codebooks with 1,024 entries each. The existing local checkpoints remain usable without conversion. Public download links have not yet been added. The EF-LIC checkpoint is a different model and cannot be used here.
+Both variants use five residual codebooks with 1,024 entries each. The existing local checkpoints remain usable without conversion. The EF-LIC checkpoint is a different model and cannot be used here.
 
 ## Test on Kodak
 
